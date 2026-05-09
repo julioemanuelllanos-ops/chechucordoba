@@ -1,0 +1,11 @@
+{
+  "name": "chechu-cordoba",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve ."
+  },
+  "dependencies": {
+    "serve": "latest"
+  }
+}

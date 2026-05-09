@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chechu Córdoba | Teatro & Animación para Escuelas</title>
+    <meta name="description" content="Teatro, títeres, narración oral y animación para eventos escolares. Más de 15 años de experiencia creando experiencias únicas para infancias.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">Chechu <span>Córdoba</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">¿Quién soy?</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#pricing">Presupuesto</a></li>
+                <li><a href="https://wa.me/5493884590734" class="btn-primary-sm">Contacto</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuOpen" aria-label="Abrir Menú">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+        <div class="mobile-menu-header">
+            <a href="#" class="logo">Chechu <span>Córdoba</span></a>
+            <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Cerrar Menú">
+                <i data-lucide="x"></i>
+            </button>
+        </div>
+        <ul class="mobile-nav-links">
+            <li><a href="#about">¿Quién soy?</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#pricing">Presupuesto</a></li>
+            <li><a href="#gallery">Galería</a></li>
+            <li><a href="https://wa.me/5493884590734" class="btn-whatsapp-mobile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Contacto WhatsApp
+            </a></li>
+        </ul>
+        <div class="mobile-menu-footer">
+            <div class="social-links-mobile">
+                <a href="https://instagram.com/lachechu.cordoba" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </a>
+                <a href="https://www.facebook.com/share/1CsMSXcoKw/?mibextid=wwXIfr" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </a>
+                <a href="https://www.youtube.com/@soychechu" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1503091900744-e905540097be?auto=format&fit=crop&q=80&w=1920" alt="Teatro mágico background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="badge fade-in">Portfolio ★</div>
+            <h1 class="fade-in-up">TEATRO & <span>ANIMACIÓN</span></h1>
+            <p class="hero-subtitle fade-in-up-delay">Creamos experiencias únicas que combinan juego, arte y emoción.</p>
+            <div class="hero-cta fade-in-up-delay-2">
+                <a href="#services" class="btn-primary">Ver Propuestas</a>
+                <a href="https://wa.me/5493884590734" class="btn-secondary">Hablemos por WhatsApp</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i data-lucide="chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <div class="image-wrapper">
+                        <img src="cuentos.JPEG" alt="Chechu Córdoba - Cuentos y Narración">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    <h2 class="section-title">¿Quién es Chechu?</h2>
+                    <p class="lead">¡Hola! Soy <strong>Chechu Córdoba</strong>, actriz, titiritera, narradora y profesora de teatro.</p>
+                    <p>Llevo <strong>más de 15 años</strong> dedicándome al teatro para infancias en eventos, espacios y festivales. Mi pasión es transformar los actos y celebraciones escolares en momentos mágicos.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i data-lucide="star"></i>
+                            <span>15+ Años de experiencia</span>
+                        </div>
+                        <div class="feature-item">
+                            <i data-lucide="smile"></i>
+                            <span>Experiencias lúdicas</span>
+                        </div>
+                        <div class="feature-item">
+                            <i data-lucide="sparkles"></i>
+                            <span>Arte y Emoción</span>
+                        </div>
+                    </div>
+                    <!-- YouTube Button -->
+                    <div class="about-cta">
+                        <a href="https://www.youtube.com/@soychechu" target="_blank" class="btn-youtube">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                            VER CANAL DE YOUTUBE
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Decorative Art -->
+        <img src="juanchocrayon.jpg.jpeg" alt="" class="floating-art art-juancho reveal">
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services" style="position: relative; overflow: hidden; background-color: #000; padding: 100px 0;">
+        <div class="video-bg"></div>
+        <div class="video-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); z-index: 1;"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div class="section-header reveal">
+                <h2 class="section-title text-center">¿Qué ofrezco?</h2>
+                <p class="section-subtitle text-center">Propuestas adaptadas a cada edad y ocasión</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Obras de Teatro -->
+                <div class="service-card reveal">
+                    <img src="juancho.JPEG" alt="Obra de Teatro Juancho" class="service-card-image">
+                    <div class="card-content">
+                        <div class="card-icon purple">
+                            <i data-lucide="theater"></i>
+                        </div>
+                        <h3>Obras de Teatro</h3>
+                        <p>Tres propuestas de títeres inolvidables:</p>
+                        <ul class="service-list">
+                            <li>"Juancho sin Dientes"</li>
+                            <li>"De tal Pato, tal pirata"</li>
+                            <li>"Historias de regazo"</li>
+                        </ul>
+                        <p class="card-footer">Duración: 45 min. Retablo 150x150, telón y elenco completo.</p>
+                    </div>
+                </div>
+
+                <!-- Narración Oral -->
+                <div class="service-card reveal" style="transition-delay: 0.1s;">
+                    <img src="cocinero.JPEG" alt="Narración Oral" class="service-card-image">
+                    <div class="card-content">
+                        <div class="card-icon teal">
+                            <i data-lucide="book-open"></i>
+                        </div>
+                        <h3>Narración Oral</h3>
+                        <p>Historias acompañadas de títeres de distintos tamaños, libros Kamishibai y música en vivo.</p>
+                        <p class="highlight">Perfecto para jardines y primaria.</p>
+                    </div>
+                </div>
+
+                <!-- Glitter Bar -->
+                <div class="service-card reveal" style="transition-delay: 0.2s;">
+                    <img src="glitter.JPEG" alt="Glitter Bar" class="service-card-image">
+                    <div class="card-content">
+                        <div class="card-icon pink">
+                            <i data-lucide="sparkle"></i>
+                        </div>
+                        <h3>Glitter Bar</h3>
+                        <p>Brillo, gemas y maquillaje artístico para que los chicos se lleven el color puesto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title text-center">Galería</h2>
+                <p class="section-subtitle text-center">Momentos de magia, color y diversión</p>
+            </div>
+            
+            <button class="btn-toggle-gallery reveal" id="toggleGallery">
+                <i data-lucide="image"></i>
+                Ver Galería de Fotos
+            </button>
+
+            <div class="gallery-container" id="galleryContainer">
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="cuentos.JPEG" alt="Narración de Cuentos">
+                        <div class="gallery-overlay"><i data-lucide="book-open"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="maquillaje.JPEG" alt="Maquillaje Artístico">
+                        <div class="gallery-overlay"><i data-lucide="palette"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="glitter.JPEG" alt="Glitter Bar">
+                        <div class="gallery-overlay"><i data-lucide="sparkles"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="pirata.JPEG" alt="Teatro Pirata">
+                        <div class="gallery-overlay"><i data-lucide="skull"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="juancho.JPEG" alt="Obra Juancho">
+                        <div class="gallery-overlay"><i data-lucide="theater"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="pato.JPEG" alt="Obra de Pato">
+                        <div class="gallery-overlay"><i data-lucide="smile"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="cocinero.JPEG" alt="Cocinero Narrador">
+                        <div class="gallery-overlay"><i data-lucide="utensils"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Decorative Art -->
+        <img src="cocinerocrayon.jpg.jpeg" alt="" class="floating-art art-cocinero reveal">
+    </section>
+
+    <!-- Pricing CTA Section -->
+    <section id="pricing" class="pricing-cta">
+        <div class="container">
+            <div class="pricing-cta-grid">
+                <div class="pricing-cta-text reveal">
+                    <h2 class="cta-title">Presupuesto para Escuelas</h2>
+                    <p class="cta-subtitle">Accedé a tarifas preferenciales y beneficios exclusivos por volumen de alumnos.</p>
+                    
+                    <div class="pricing-ranges">
+                        <div class="range-item">
+                            <span class="range-label">20 a 50 alumnos</span>
+                            <span class="range-value">Tarifa Base</span>
+                        </div>
+                        <div class="range-item">
+                            <span class="range-label">50 a 100 alumnos</span>
+                            <span class="range-value">Descuento por Grupo</span>
+                        </div>
+                        <div class="range-item">
+                            <span class="range-label">Más de 100 alumnos</span>
+                            <span class="range-value">Máximo Beneficio</span>
+                        </div>
+                    </div>
+                    
+                    <p class="cta-concept">Mientras más grande sea el contingente, mayor es el ahorro por estudiante.</p>
+                    
+                    <a href="https://wa.me/5493884590734" class="btn-cta-purple">Consultar presupuesto personalizado</a>
+                </div>
+                <div class="pricing-cta-image reveal">
+                    <img src="niños.JPEG" alt="Niños disfrutando">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <h2 class="reveal">¿Hablamos?</h2>
+            <p class="reveal">¡No te quedes sin la magia para tus estudiantes!</p>
+            
+            <div class="footer-cta reveal">
+                <a href="https://wa.me/5493884590734" class="btn-whatsapp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="whatsapp-icon-svg">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                    WhatsApp: +54 9 388 4590734
+                </a>
+            </div>
+
+            <!-- Social Media Buttons -->
+            <div class="footer-social-grid reveal">
+                <a href="https://instagram.com/lachechu.cordoba" target="_blank" class="social-btn instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://www.facebook.com/share/1CsMSXcoKw/?mibextid=wwXIfr" target="_blank" class="social-btn facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    <span>Facebook</span>
+                </a>
+                <a href="https://www.youtube.com/@soychechu" target="_blank" class="social-btn youtube">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    <span>YouTube</span>
+                </a>
+            </div>
+            
+            <div class="footer-bottom reveal">
+                <p class="logo-footer">Chechu <span>Córdoba</span></p>
+                <p class="copyright">Actriz · Titiritera · Narradora · Profesora de Teatro</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Gallery Toggle Logic
+        const toggleBtn = document.getElementById('toggleGallery');
+        const container = document.getElementById('galleryContainer');
+
+        if (toggleBtn && container) {
+            toggleBtn.addEventListener('click', () => {
+                container.classList.toggle('is-visible');
+                const isVisible = container.classList.contains('is-visible');
+                toggleBtn.innerHTML = isVisible 
+                    ? '<i data-lucide="x"></i> Ocultar Galería' 
+                    : '<i data-lucide="image"></i> Ver Galería de Fotos';
+                lucide.createIcons();
+            });
+        }
+
+        // Mobile Menu Logic
+        const menuOpen = document.getElementById('mobileMenuOpen');
+        const menuClose = document.getElementById('mobileMenuClose');
+        const overlay = document.getElementById('mobileMenuOverlay');
+        const menuLinks = document.querySelectorAll('.mobile-nav-links a');
+
+        function toggleMenu() {
+            overlay.classList.toggle('active');
+            document.body.style.overflow = overlay.classList.contains('active') ? 'hidden' : 'auto';
+        }
+
+        if (menuOpen) menuOpen.addEventListener('click', toggleMenu);
+        if (menuClose) menuClose.addEventListener('click', toggleMenu);
+        
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                overlay.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            });
+        });
+    </script>
+</body>
+</html>
